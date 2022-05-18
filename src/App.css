@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  
+}
+
+.title{
+  text-align: center;
+}
+
+.textbox{
+  background-color: rgb(126, 210, 216);
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.submitbutton{
+  height: 70px;
+  width: 200px;
+  background-color: rgb(126, 210, 216);
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.formcont{
+  width: 30%;
+  margin: auto;
+  margin-top: 5rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.formcont *{
+  margin: 2px;
+}
+
+.cardcont{
+  
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns:  auto auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  width: 70%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.card{
+  border: 2px solid red;
+  border-radius: 25px;
+  height: 90px;
+  width: 100%;
+  text-align: center;
+  background-color:aqua;
+  
+  
+}
+
+.userinfo{
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: solid;
+  
+}
